@@ -1,14 +1,23 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Serão abordados nesse tópico as ferramentas utilizadas para a construção da plataforma e manutenções futuras dos códigos e artefatos.
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela abaixo.
+
+---
+
+| Ambiente                          | Plataforma | Link de acesso                                                                                                          |
+| --------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Repositório de código fonte       | Github     |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-aplicdistrib-t5-pmv-ads-2023-2-e4-g5-diario-t5                |
+| Documentos do projeto             | Github     | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-aplicdistrib-t5-pmv-ads-2023-2-e4-g5-diario-t5/tree/main/docs |
+| Projeto de Interface e Wireframes | A definir  | A definir                                                                                          |
+| Gerenciamento do Projeto          | Trello     | https://trello.com/b/8lJOQrrJ/projeto-eixo-4                                                                               |
+
+---
 
 ## Controle de Versão
 
@@ -16,72 +25,80 @@ A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
 
-O projeto segue a seguinte convenção para o nome de branches:
+Para gestão do código fonte da aplicação produzida pela equipe, o grupo utiliza um processo baseado no WorkFlow, mostrado a seguir, retirado de Vietro (2020). Dessa forma, todas as alterações no código são realizadas em branches, nas quais os desenvolvedores devem criar uma branch para cada funcionalidade nova no projeto. Assim, as alterações no código da branch principal se faz por meio de um aceite após um pull request via GitHub.
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+---
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+![Workflow](img/Metodologia/Workflow.png)
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
+---
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Nossa equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+A equipe está organizada da seguinte maneira:
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
-
+* Scrum Master:
+  - `Gustavo Alves Oliveira`
+* PO:
+  -  `José Carlos da Costa Júnior`
+* Equipe de Desenvolvimento Front End:
+  -  `Gustavo Alves Oliveira`
+  - `Jefferson Filho`
+  - `Alexandre Magalhães Ribeiro`
+  - `Crislaine Fernandes Silva Medeiros`
+* Equipe de Desenvolvimento Back end:
+  - `José Carlos da Costa Júnior`
+  -  `Gustavo Alves Oliveira`
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe utiliza o Trello, o qual é estruturado com as seguintes listas: 
+-	<b>Backlog</b>: Recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também vão ser incorporadas a esta lista.
+
+-  <b>Ready for dev</b>: Esta lista detalha os cards prontos para ser desenvolvidos
+
+-	<b>A Fazer</b>: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+
+-	<b>Em andamento</b>: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+
+
+-	<b>Concluído</b>: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário.
+
+O quadro kanban do grupo no Trello está disponível através da URL: https://trello.com/b/8lJOQrrJ/projeto-eixo-4 e é apresentado na imagem abaixo.
+
+![Workflow](img/Metodologia/Trello.png)
+
+---
+As tarefas são etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+-	Desenvolvimento 
+-	Documentação                                 
+-	Infraestrutura
+-	Testes
+-	Gerência de Projetos.
+
+![Workflow](img/Metodologia/Etiquetas.png)
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
 - Editor de código.
+  - `Visual studio Code`
 - Ferramentas de comunicação
+  - `Trello`
+  - `Teams`
 - Ferramentas de desenho de tela (_wireframing_)
+  - `A definir`
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+O editor de código foi escolhido pela facilidade de utilização e familiaridade dos desenvolvedores com o mesmo.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
+- Github
+  - `Auxiliará no controle de versão da applicação`
+- Trello
+  - `Auxiliará na gestão dos requisitos/backlog`
+- Microsoft Teams
+  - `Auxiliará na comunicação do time `
  
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+---
