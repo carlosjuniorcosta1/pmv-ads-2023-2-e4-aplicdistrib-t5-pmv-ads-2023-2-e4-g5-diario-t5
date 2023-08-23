@@ -15,6 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Jefferson Filho
 * José Carlos da Costa Júnior
 * Alexandre Magalhães Ribeiro
+* Crislaine Fernandes Silva Medeiros
 
 ## Orientador
 
