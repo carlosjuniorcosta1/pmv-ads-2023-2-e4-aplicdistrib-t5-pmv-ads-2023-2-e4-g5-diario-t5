@@ -7,7 +7,7 @@
 
 #### `EIXO 2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo deste trabalho é planejar e criar uma aplicação web e mobile de diário escolar eletrônico. Essa aplicação visa a atender à demanda de profissionais de educação, principalmente docentes, no que diz respeito ao monitoramento claro e ágil do processo de avaliação, frequência e currículo de discentes do Ensino Fundamental e Médio.
 
 ## Integrantes
 
