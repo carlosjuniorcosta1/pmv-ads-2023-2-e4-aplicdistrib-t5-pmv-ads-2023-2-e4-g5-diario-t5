@@ -87,17 +87,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| Fornecer visualizações gráficas de médias de alunos, desempenho geral da turma e outras estatísticas relevantes   | BAIXA |
 |RF-009| Garantir que o aplicativo seja acessível em diferentes dispositivos, como smartphones, tablets e computadores.   | MÉDIA |
 |RF-010| O layout deve ser intuitivo, tornando fácil para os usuários navegar e encontrar as funcionalidades desejadas   | BAIXA |
+|RF-011| Permitir a busca de alunos por turma   | BAIXA |
+|RF-012| Permitir o cadastro da turma  | BAIXA |
 
 ### Requisitos não Funcionais
 
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RNF-001| O banco de dados deve ser hospedado na nuvem para acesso da aplicação | ALTA |
-|RNF-002| Tempo de resposta aceitável para as ações do usuário, como carregamento de páginas e processamento de dados. | ALTA |
-|RNF-003| A aplicação deve ter um tempo de resposta baixo para as requisições | MÉDIA |
-|RNF-004| A aplicação deve possuir uma interface limpa e intuitiva para o usuário | BAIXA |
-|RNF-005| A aplicação deve criptografar a senha do usuário   | ALTA |
+|RNF-001| Tempo de resposta aceitável para as ações do usuário, como carregamento de páginas, processamento de dados e requisições na API  | ALTA |
 
 
 ## Restrições
@@ -106,7 +104,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
+|01| O projeto deverá ser entregue até o final do semestre na data 10/12/2023 |
+|02| O banco de dados deve ser hospedado na nuvem para acesso da aplicação |
+|03| O desenvolvimento da aplicação Web/Mobile deve ser desenvolvida pelo Time atual |
 
 
 
