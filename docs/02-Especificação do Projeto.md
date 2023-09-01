@@ -87,17 +87,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| Fornecer visualizações gráficas de médias de alunos, desempenho geral da turma e outras estatísticas relevantes   | BAIXA |
 |RF-009| Garantir que o aplicativo seja acessível em diferentes dispositivos, como smartphones, tablets e computadores.   | MÉDIA |
 |RF-010| O layout deve ser intuitivo, tornando fácil para os usuários navegar e encontrar as funcionalidades desejadas   | BAIXA |
+|RF-011| Permitir a busca de alunos por turma   | BAIXA |
+|RF-012| Permitir o cadastro da turma  | BAIXA |
 
 ### Requisitos não Funcionais
 
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RNF-001| O banco de dados deve ser hospedado na nuvem para acesso da aplicação | ALTA |
-|RNF-002| Tempo de resposta aceitável para as ações do usuário, como carregamento de páginas e processamento de dados. | ALTA |
-|RNF-003| A aplicação deve ter um tempo de resposta baixo para as requisições | MÉDIA |
-|RNF-004| A aplicação deve possuir uma interface limpa e intuitiva para o usuário | BAIXA |
-|RNF-005| A aplicação deve criptografar a senha do usuário   | ALTA |
+|RNF-001| Tempo de resposta aceitável para as ações do usuário, como carregamento de páginas, processamento de dados e requisições na API  | ALTA |
 
 
 ## Restrições
@@ -106,7 +104,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
+|01| O projeto deverá ser entregue até o final do semestre na data 10/12/2023 |
+|02| O banco de dados deve ser hospedado na nuvem para acesso da aplicação |
+|03| O desenvolvimento da aplicação Web/Mobile deve ser desenvolvida pelo Time atual |
 
 
 
@@ -136,7 +136,10 @@ A matriz deve contemplar todos os elementos relevantes que fazem parte do sistem
 De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições e Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
 
 ### Gerenciamento de Tempo
-O gráfico de Gantt é uma ferramenta visual para gerenciar o cronograma de atividades de um projeto. Ele lista as atividades necessárias, as divide em etapas e estima o tempo necessário para executá-las. A seguir, há uma imagem da utilização do gráfico de Gantt para este projeto.
+O gráfico de Gantt é uma ferramenta visual para gerenciar o cronograma de atividades de um projeto. Ele lista as atividades necessárias, as divide em etapas e estima o tempo necessário para executá-las. A seguir, há uma imagem da utilização do gráfico de Gantt para este projeto.<br>
+
+[Trello da equipe](https://trello.com/b/8lJOQrrJ/projeto-eixo-4)
+
 
 ![Gerenciamento de Tempo](img/Especificacão/Diagrama%20de%20grantt.png)
 
@@ -144,12 +147,16 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 ### Gerenciamento de Equipe
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
-|                  | Agosto           | Setembro         | Outubro          | Novembro         |
-|------------------|------------------|------------------|------------------|------------------|------------------|
-| **Data de Entrega**  | <span style="color:black;">01/08/23 a 03/09/23</span> | <span style="color:black;">04/09/23 a 01/10/23</span>   | <span style="color:black;">02/10/23 a 29/10/23</span>    | <span style="color:black;">30/10/23 a 26/11/23</span> | 
-| **Equipe de Gestão** | <span style="color:red;">**`Documento de Contexto...`**</span> |||||
-|**Equipe Back**      || <span style="color:green;">**`Implementação da API`**</span> ||||
-| **Equipe Front**    ||| <span style="color:blue;">**`Projeto e implementação da interface Web`**</span> | <span style="color:blue;">**`Projeto e implementação da interface Mobile`**</span>|
+
+
+|                  | Agosto                | Setembro              | Outubro               | Novembro              |
+|------------------|-----------------------|-----------------------|-----------------------|-----------------------|
+| **Data de Entrega**  | 01/08/23 a 03/09/23   | 04/09/23 a 01/10/23   | 02/10/23 a 29/10/23   | 30/10/23 a 26/11/23   |
+| **Equipe de Gestão** | **Documento de Contexto** |                       |                       |                       |
+| **Equipe Back**      |                       | **Implementação da API** |                       |                       |
+| **Equipe Front**    |                       |                       | **Projeto e implementação da interface Web** | **Projeto e implementação da interface Mobile** |
+
+
 
 ## Gestão de Orçamento
 
