@@ -144,6 +144,8 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 ### Gerenciamento de Equipe
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+
+
 |                  | Agosto                | Setembro              | Outubro               | Novembro              |
 |------------------|-----------------------|-----------------------|-----------------------|-----------------------|
 | **Data de Entrega**  | 01/08/23 a 03/09/23   | 04/09/23 a 01/10/23   | 02/10/23 a 29/10/23   | 30/10/23 a 26/11/23   |
