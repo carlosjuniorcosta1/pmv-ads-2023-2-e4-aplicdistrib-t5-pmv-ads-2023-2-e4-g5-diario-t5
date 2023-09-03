@@ -79,11 +79,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve ter uma tela de login | BAIXA |
 |RF-002| Permitir aos professores registrar informações sobre as aulas lecionadas, como data, disciplina, conteúdo abordado e materiais utilizados, e também cadastro de informações dos alunos, como nome, matrícula, contato, turma e outras informações relevantes. Tempo esperado de resposta: até 5 segundos após a requisição | ALTA |
-|RF-005| Permitir que os professores registrem a presença ou falta de alunos em cada aula   | MÉDIA |
-|RF-006| Gerar relatórios de frequência para pais, responsáveis e gestores   | BAIXA |
-|RF-007| Fornecer visualizações gráficas de médias de alunos, desempenho geral da turma e outras estatísticas relevantes   | BAIXA |
-|RF-008| Permitir a busca de alunos por turma   | BAIXA |
-|RF-009| Permitir o cadastro da turma  | BAIXA |
+|RF-003| Permitir que os professores registrem a presença ou falta de alunos em cada aula   | MÉDIA |
+|RF-004| Gerar relatórios de frequência para pais, responsáveis e gestores   | BAIXA |
+|RF-005| Fornecer visualizações gráficas de médias de alunos, desempenho geral da turma e outras estatísticas relevantes   | BAIXA |
+|RF-006| Permitir a busca de alunos por turma   | BAIXA |
+|RF-007| Permitir o cadastro da turma  | BAIXA |
 
 ### Requisitos não Funcionais
 
