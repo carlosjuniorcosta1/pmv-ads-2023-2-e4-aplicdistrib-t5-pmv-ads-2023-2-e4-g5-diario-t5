@@ -78,24 +78,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve ter uma tela de login | BAIXA |
-|RF-002| Permitir aos professores registrar informações sobre as aulas lecionadas, como data, disciplina, conteúdo abordado e materiais utilizados. | ALTA |
-|RF-003| Possibilitar o cadastro de informações dos alunos, como nome, matrícula, contato, turma e outras informações relevantes. | ALTA |
-|RF-004| Permitir que os professores registrem avaliações, tarefas e atividades de avaliação com datas, tipo de avaliação e notas atribuídas. | ALTA |
-|RF-005| Calcular automaticamente as médias e notas finais com base nas avaliações registradas.   | BAIXA |
-|RF-006| Permitir que os professores registrem a presença ou falta de alunos em cada aula   | MÉDIA |
-|RF-007| Gerar relatórios de frequência para pais, responsáveis e gestores   | BAIXA |
-|RF-008| Fornecer visualizações gráficas de médias de alunos, desempenho geral da turma e outras estatísticas relevantes   | BAIXA |
-|RF-009| Garantir que o aplicativo seja acessível em diferentes dispositivos, como smartphones, tablets e computadores.   | MÉDIA |
-|RF-010| O layout deve ser intuitivo, tornando fácil para os usuários navegar e encontrar as funcionalidades desejadas   | BAIXA |
-|RF-011| Permitir a busca de alunos por turma   | BAIXA |
-|RF-012| Permitir o cadastro da turma  | BAIXA |
+|RF-002| Permitir aos professores registrar informações sobre as aulas lecionadas, como data, disciplina, conteúdo abordado e materiais utilizados, e também cadastro de informações dos alunos, como nome, matrícula, contato, turma e outras informações relevantes. Tempo esperado de resposta: até 5 segundos após a requisição | ALTA |
+|RF-005| Permitir que os professores registrem a presença ou falta de alunos em cada aula   | MÉDIA |
+|RF-006| Gerar relatórios de frequência para pais, responsáveis e gestores   | BAIXA |
+|RF-007| Fornecer visualizações gráficas de médias de alunos, desempenho geral da turma e outras estatísticas relevantes   | BAIXA |
+|RF-008| Permitir a busca de alunos por turma   | BAIXA |
+|RF-009| Permitir o cadastro da turma  | BAIXA |
 
 ### Requisitos não Funcionais
 
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RNF-001| Tempo de resposta aceitável para as ações do usuário, como carregamento de páginas, processamento de dados e requisições na API  | ALTA |
+|RF-001| Garantir que o aplicativo seja acessível em diferentes dispositivos, como smartphones, tablets e computadores.   | MÉDIA |
 
 
 ## Restrições
@@ -107,6 +102,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre na data 10/12/2023 |
 |02| O banco de dados deve ser hospedado na nuvem para acesso da aplicação |
 |03| O desenvolvimento da aplicação Web/Mobile deve ser desenvolvida pelo Time atual |
+|04| Tempo de resposta aceitável, até 5 segundos, para as ações do usuário, como carregamento de páginas, processamento de dados e requisições na API  |
 
 
 
