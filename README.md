@@ -16,6 +16,7 @@ O objetivo deste trabalho é planejar e criar uma aplicação web e mobile de di
 * José Carlos da Costa Júnior
 * Alexandre Magalhães Ribeiro
 * Crislaine Fernandes Silva Medeiros
+* Bianca Campos Xavier
 
 ## Orientador
 
