@@ -64,10 +64,10 @@ O processo apresentado consiste no fluxo da aplicação e a estrutura usada
 
 Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
 
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+*|Indicador|Objetivo|Descrição|Cálculo|Fonte de Dados|Perpesctiva|*
+|Tempo de carregamento da página|Medir o tempo de resposta|O tempo que a página leva para carregar é um dos indicadores mais importantes para evitar que os usuários abandonem o site||Banco de Dados|Cliente|
+|Nível de escalabilidade|Medir a escabilidade da ferramente|Avaliar a capacidade da aplicação de lidar com aumentos de tráfego||Aplicação|Cliente|
+|Taxa de retorno de usuários|Medir a satisfação do cliente|Avaliar quão satisfeitos estão os usuários com a aplicação||Aplicação|Cliente|
 
 ## Requisitos
 
