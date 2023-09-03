@@ -62,12 +62,13 @@ O processo apresentado consiste no fluxo da aplicação e a estrutura usada
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+Indicadores de desempenho para uma aplicação escalável
 
-*|Indicador|Objetivo|Descrição|Cálculo|Fonte de Dados|Perpesctiva|*
-|Tempo de carregamento da página|Medir o tempo de resposta|O tempo que a página leva para carregar é um dos indicadores mais importantes para evitar que os usuários abandonem o site||Banco de Dados|Cliente|
-|Nível de escalabilidade|Medir a escabilidade da ferramente|Avaliar a capacidade da aplicação de lidar com aumentos de tráfego||Aplicação|Cliente|
-|Taxa de retorno de usuários|Medir a satisfação do cliente|Avaliar quão satisfeitos estão os usuários com a aplicação||Aplicação|Cliente|
+|Indicador|Objetivo|Descrição|Cálculo|Fonte de Dados|Perpesctiva
+|------|-----------------------------------------|----|----|----|----
+|Tempo de carregamento da página|Medir o tempo de resposta|O tempo que a página leva para carregar é um dos indicadores mais importantes para evitar que os usuários abandonem o site||Banco de Dados|Cliente
+|Nível de escalabilidade|Medir a escabilidade da ferramente|Avaliar a capacidade da aplicação de lidar com aumentos de tráfego||Aplicação|Cliente
+|Taxa de retorno de usuários|Medir a satisfação do cliente|Avaliar quão satisfeitos estão os usuários com a aplicação||Aplicação|Cliente
 
 ## Requisitos
 
@@ -90,7 +91,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Garantir que o aplicativo seja acessível em diferentes dispositivos, como smartphones, tablets e computadores.   | MÉDIA |
+|RNF-001| Garantir que o aplicativo seja acessível em diferentes dispositivos, como smartphones, tablets e computadores.   | MÉDIA |
 
 
 ## Restrições
@@ -115,11 +116,17 @@ Na imagem abaixo é apresentado o diagrama de casos de uso do projeto.
 ---
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+|      |RF-001|RF-002|RF-003|RF-004|RF-005|RF-006|RF-007|RNF-001
+|------|-|-|-|-|-|-|-|-|
+|RF-001||<center>X</center>|<center>X</center>|<center>X</center>|<center>X</center>|<center>X</center>|<center>X</center>|<center>X</center>
+|RF-002|||<center>X</center>|<center>X</center>|<center>X</center>|<center>X</center>|<center>X</center>|<center>X</center>
+|RF-003||<center>X</center>|||||<center>X</center>|<center>X</center>
+|RF-004||<center>X</center>|<center>X</center>||||<center>X</center>|<center>X</center>
+|RF-005||<center>X</center>|<center>X</center>||||<center>X</center>|<center>X</center>
+|RF-006||<center>X</center>|||||<center>X</center>|<center>X</center>
+|RF-007||||||||<center>X</center>
+|RNF-001|<center>X</center>|||||||
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
 
 > **Links Úteis**:
 > - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
