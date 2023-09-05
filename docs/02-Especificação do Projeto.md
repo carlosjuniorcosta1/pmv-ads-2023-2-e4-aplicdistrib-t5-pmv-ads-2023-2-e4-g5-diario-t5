@@ -18,7 +18,7 @@ Seguem demonstradas por meio dos quadros apresentados o levantamento feito das p
 | Viviana Gomes ![alt text](/docs/img/Persona3.jpg) | 31 |        Professora de Geografia          | WhatsApp, Facebook, Instagram e Tiktok                          | Conseguir lecionar num curso de graduação. | Sentir que os alunos não mostram interesse por sua aula. | Praticar exercício físico e ler.
 | Adélia Maria ![alt text](/docs/img/Persona4.jpg) |   47  | Professora de Espanhol | WhatsApp, Instagram, Youtube | Especializar em mais dois idiomas. | Não ter recursos tecnológicos disponíveis em sala de aula. | Gosta de dançar e viajar. |
 | Daniel Santos ![alt text](/docs/img/Persona5.jpg) |   37  |  Professor de Química   | WhatsApp, Instagram, Youtube  | Criar experimentos para atrair a atenção dos alunos.      | Lecionar poucas aulas no laboratório. | Assistir séries e jogar jogos online. |
-| Denise Ornelas ![alt text](/docs/img/Persona6.jpg) |   44  |   Professora de História  | WhatsApp, Instagram, Facebook                           | Fazer um grupo de estudo extra escolar para desenvolver temas referente à história do Brasil.      | Não gostar da abordagem dos livros escolhidos pelo mec. | Praticar natação e viajar. |
+| Denise Ornelas ![alt text](/docs/img/Persona6.jpg) |   44  |   Professora de História  | WhatsApp, Instagram, Facebook                     | Fazer um grupo de estudo extra escolar para desenvolver temas referente à história do Brasil.      | Não gostar da abordagem dos livros escolhidos pelo mec. | Praticar natação e viajar. |
 
 ## Histórias de Usuários
 
