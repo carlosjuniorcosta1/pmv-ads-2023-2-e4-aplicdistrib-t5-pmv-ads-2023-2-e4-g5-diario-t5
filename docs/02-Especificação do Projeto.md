@@ -8,19 +8,17 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Seguem demonstradas por meio dos quadros apresentados o levantamento feito das personas e suas características durante o processo de entendimento do problema:
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|    Persona    | Idade |           Ocupação           |                        Aplicativos                       |                      Motivações                     |                           Frustrações                          |                           Hobbies                          |
+|:-------------:|:-----:|:---------------------------:|:--------------------------------------------------------:|:--------------------------------------------------:|:----------------------------------------------------------------:|:---------------------------------------------------------:|
+| Ana Lúcia Santos ![alt text](/docs/img/Persona 1.jpg) |   41  | Segurança de empresa privada | WhatsApp, Instagram, LinkedIn, Aplicativos de bancos    | Trabalhar visando proporcionar uma boa qualidade de vida para a família. | Não conseguir entregar uma obra dentro do prazo. | Gosta de ler, Ouvir música |
+| Antonio Gamber ![alt text](/docs/img/Persona 2.jpg) |   22  |     Técnico em Informática   | WhatsApp, Instagram, Twitch, Youtube, Discord           | Entregar ao cliente o resultado que ele mesmo gostaria de receber. | Sentir que seu trabalho não está sendo bem feito. | Assistir séries, jogar jogos online |
+| Viviana Gomes ![alt text](/docs/img/Persona 3.jpg) | 39 |         Film Maker          | WhatsApp, Facebook, Instagram                           | Procura de staff qualificada para apoio em seus projetos. | Falta de oportunidades para iniciar sua carreira. | Aprimorar o conhecimento em sua área de atuação. |
+| Adélia Maria ![alt text](/docs/img/Persona 4.jpg) |   25  | Cuidadora de Idosos, acompanhante hospitalar e estudante de Enfermagem | WhatsApp, Instagram, TikTok, Youtube | Crescer como profissional da saúde. | Sentir que seu trabalho não está sendo bem feito. | Praticar exercícios físicos, ler. |
+| Daniel Santos ![alt text](/docs/img/Persona 5.jpg) |   24  |   Designer de interiores e empresaria   | WhatsApp, Instagram, TikTok                            | Crescer sua empresa e maximizar seus lucros.      | Falta de resultados expressivos na busca de mão de obra qualificada. | Academia, Maquiagem. |
+| Denise Ornelas ![alt text](/docs/img/Persona 6.jpg) |   24  |   Designer de interiores e empresaria   | WhatsApp, Instagram, TikTok                            | Crescer sua empresa e maximizar seus lucros.      | Falta de resultados expressivos na busca de mão de obra qualificada. | Academia, Maquiagem. |
 
 ## Histórias de Usuários
 
