@@ -22,21 +22,31 @@ Segue o levantamento feito das personas e suas características durante o proces
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|-------------------------------------|----------------------------------------|
+|                    | Obter uma visão ampla de todos os   | Planejar melhor a modalidade de ensino |
+| Ana Lúcia Santo s   | alunos e turmas                     | e destinação dos professores de forma  |
+|                    |                                     | rápida e prática                       |
+|--------------------|-------------------------------------|----------------------------------------|
+| Antônio Gamber     | Acompanhamento dos alunos e turmas  | Obter visão do desempenho dos alunos e |
+|                    |                                     | turmas durante o ano letivo vigente    |
+|--------------------|-------------------------------------|----------------------------------------|
+|                    | Visão de todos os itens relacionados| Acompanhar em tempo real e garantir que|
+| Viviane Gomes      | à frequência dos alunos             | o aluno está recebendo todas as infor- |
+|                    |                                     | mações internas repassadas diariamente |
+|--------------------|-------------------------------------|----------------------------------------|
+|                    | Uma aplicação para controle do      | Obter fácil acesso as informações      |
+| Adélia Maria       | diário acadêmico                    | acadêmicas dos alunos com segurança    |
+|                    |                                     | e estabilidade                         |
+|--------------------|-------------------------------------|----------------------------------------|
+| Daniel Santos      | Obter controle da disciplina        | Facilitar e identificar as dificuldades| 
+|                    | lecionada e dos alunos da sala      | e necessidades de ajustes diários      |
+|--------------------|-------------------------------------|----------------------------------------|
+|  Denise Ornelas    | Praticidade e simplicidade na       | Identificar os alunos de forma rápida  |
+|   	             | localização das turmas              | e objetiva                             |
+|--------------------|-------------------------------------|----------------------------------------|
 
 ## Modelagem do Processo de Negócio 
 
