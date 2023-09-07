@@ -27,7 +27,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|-------------------------------------|----------------------------------------|
 |                    | Obter uma visão ampla de todos os   | Planejar melhor a modalidade de ensino |
-| Ana Lúcia Santos   | alunos e turmas                     | e destinação dos professores de forma  |
+| Ana Lúcia Santo s   | alunos e turmas                     | e destinação dos professores de forma  |
 |                    |                                     | rápida e prática                       |
 |--------------------|-------------------------------------|----------------------------------------|
 | Antônio Gamber     | Acompanhamento dos alunos e turmas  | Obter visão do desempenho dos alunos e |
