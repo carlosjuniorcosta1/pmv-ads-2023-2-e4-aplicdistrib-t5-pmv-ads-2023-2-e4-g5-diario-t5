@@ -24,29 +24,14 @@ Segue o levantamento feito das personas e suas características durante o proces
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|-------------------------------------|----------------------------------------|
-|                    | Obter uma visão ampla de todos os   | Planejar melhor a modalidade de ensino |
-| Ana Lúcia Santo s   | alunos e turmas                     | e destinação dos professores de forma  |
-|                    |                                     | rápida e prática                       |
-|--------------------|-------------------------------------|----------------------------------------|
-| Antônio Gamber     | Acompanhamento dos alunos e turmas  | Obter visão do desempenho dos alunos e |
-|                    |                                     | turmas durante o ano letivo vigente    |
-|--------------------|-------------------------------------|----------------------------------------|
-|                    | Visão de todos os itens relacionados| Acompanhar em tempo real e garantir que|
-| Viviane Gomes      | à frequência dos alunos             | o aluno está recebendo todas as infor- |
-|                    |                                     | mações internas repassadas diariamente |
-|--------------------|-------------------------------------|----------------------------------------|
-|                    | Uma aplicação para controle do      | Obter fácil acesso as informações      |
-| Adélia Maria       | diário acadêmico                    | acadêmicas dos alunos com segurança    |
-|                    |                                     | e estabilidade                         |
-|--------------------|-------------------------------------|----------------------------------------|
-| Daniel Santos      | Obter controle da disciplina        | Facilitar e identificar as dificuldades| 
-|                    | lecionada e dos alunos da sala      | e necessidades de ajustes diários      |
-|--------------------|-------------------------------------|----------------------------------------|
-|  Denise Ornelas    | Praticidade e simplicidade na       | Identificar os alunos de forma rápida  |
-|   	             | localização das turmas              | e objetiva                             |
-|--------------------|-------------------------------------|----------------------------------------|
+| EU COMO...       | QUERO/PRECISO ...             | PARA ...                                   |
+|------------------|-------------------------------|--------------------------------------------|
+| Ana Lúcia Santos | Obter uma visão ampla de todos os alunos e turmas     | Planejar melhor a modalidade de ensino e destinação dos professores de forma rápida e prática |
+| Antônio Gamber   | Acompanhamento dos alunos e turmas                      | Obter visão do desempenho dos alunos e turmas durante o ano letivo vigente              |
+| Viviane Gomes    | Visão de todos os itens relacionados à frequência dos alunos | Acompanhar em tempo real e garantir que o aluno está recebendo todas as informações internas repassadas diariamente |
+| Adélia Maria     | Uma aplicação para controle do diário acadêmico         | Obter fácil acesso às informações acadêmicas dos alunos com segurança e estabilidade       |
+| Daniel Santos    | Obter controle da disciplina lecionada e dos alunos da sala | Facilitar e identificar as dificuldades e necessidades de ajustes diários                  |
+| Denise Ornelas   | Praticidade e simplicidade na localização das turmas     | Identificar os alunos de forma rápida e objetiva
 
 ## Modelagem do Processo de Negócio 
 
