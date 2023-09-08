@@ -1,12 +1,7 @@
 
 # Metodologia
 
-
-Serão abordados nesse tópico as ferramentas utilizadas para a construção da plataforma e manutenções futuras dos códigos e artefatos.
-
 ## Relação de Ambientes de Trabalho
-
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela abaixo.
 
 ---
 
@@ -25,7 +20,6 @@ A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
 
-Para gestão do código fonte da aplicação produzida pela equipe, o grupo utiliza um processo baseado no WorkFlow, mostrado a seguir, retirado de Vietro (2020). Dessa forma, todas as alterações no código são realizadas em branches, nas quais os desenvolvedores devem criar uma branch para cada funcionalidade nova no projeto. Assim, as alterações no código da branch principal se faz por meio de um aceite após um pull request via GitHub.
 
 ---
 
