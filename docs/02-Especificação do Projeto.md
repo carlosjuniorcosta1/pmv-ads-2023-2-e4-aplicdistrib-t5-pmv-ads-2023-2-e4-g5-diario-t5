@@ -1,10 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
@@ -24,29 +19,14 @@ Segue o levantamento feito das personas e suas características durante o proces
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|-------------------------------------|----------------------------------------|
-|                    | Obter uma visão ampla de todos os   | Planejar melhor a modalidade de ensino |
-| Ana Lúcia Santo s   | alunos e turmas                     | e destinação dos professores de forma  |
-|                    |                                     | rápida e prática                       |
-|--------------------|-------------------------------------|----------------------------------------|
-| Antônio Gamber     | Acompanhamento dos alunos e turmas  | Obter visão do desempenho dos alunos e |
-|                    |                                     | turmas durante o ano letivo vigente    |
-|--------------------|-------------------------------------|----------------------------------------|
-|                    | Visão de todos os itens relacionados| Acompanhar em tempo real e garantir que|
-| Viviane Gomes      | à frequência dos alunos             | o aluno está recebendo todas as infor- |
-|                    |                                     | mações internas repassadas diariamente |
-|--------------------|-------------------------------------|----------------------------------------|
-|                    | Uma aplicação para controle do      | Obter fácil acesso as informações      |
-| Adélia Maria       | diário acadêmico                    | acadêmicas dos alunos com segurança    |
-|                    |                                     | e estabilidade                         |
-|--------------------|-------------------------------------|----------------------------------------|
-| Daniel Santos      | Obter controle da disciplina        | Facilitar e identificar as dificuldades| 
-|                    | lecionada e dos alunos da sala      | e necessidades de ajustes diários      |
-|--------------------|-------------------------------------|----------------------------------------|
-|  Denise Ornelas    | Praticidade e simplicidade na       | Identificar os alunos de forma rápida  |
-|   	             | localização das turmas              | e objetiva                             |
-|--------------------|-------------------------------------|----------------------------------------|
+| EU COMO...       | QUERO/PRECISO ...             | PARA ...                                   |
+|------------------|-------------------------------|--------------------------------------------|
+| Ana Lúcia Santos | Obter uma visão ampla de todos os alunos e turmas     | Planejar melhor a modalidade de ensino e destinação dos professores de forma rápida e prática |
+| Antônio Gamber   | Acompanhamento dos alunos e turmas                      | Obter visão do desempenho dos alunos e turmas durante o ano letivo vigente              |
+| Viviane Gomes    | Visão de todos os itens relacionados à frequência dos alunos | Acompanhar em tempo real e garantir que o aluno está recebendo todas as informações internas repassadas diariamente |
+| Adélia Maria     | Uma aplicação para controle do diário acadêmico         | Obter fácil acesso às informações acadêmicas dos alunos com segurança e estabilidade       |
+| Daniel Santos    | Obter controle da disciplina lecionada e dos alunos da sala | Facilitar e identificar as dificuldades e necessidades de ajustes diários                  |
+| Denise Ornelas   | Praticidade e simplicidade na localização das turmas     | Identificar os alunos de forma rápida e objetiva
 
 ## Modelagem do Processo de Negócio 
 
@@ -86,10 +66,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve ter uma tela de login | BAIXA |
-|RF-002| Permitir aos professores registrar informações sobre as aulas lecionadas, como data, disciplina, conteúdo abordado e materiais utilizados, e também cadastro de informações dos alunos, como nome, matrícula, contato, turma e outras informações relevantes. Tempo esperado de resposta: até 5 segundos após a requisição | ALTA |
+|RF-001| A aplicação deve ter uma tela de login e cadastro de usuário | BAIXA |
+|RF-002| Permitir aos professores registrar informações sobre as aulas lecionadas, como data, disciplina, conteúdo abordado e materiais utilizados, e também cadastro de informações dos alunos, como nome, matrícula, contato, turma e outras informações relevantes | ALTA |
 |RF-003| Permitir que os professores registrem a presença ou falta de alunos em cada aula   | MÉDIA |
-|RF-004| Gerar relatórios de frequência para pais, responsáveis e gestores   | BAIXA |
+|RF-004| Gerar relatórios de frequência e de notas para pais, responsáveis e gestores   | BAIXA |
 |RF-005| Fornecer visualizações gráficas de médias de alunos, desempenho geral da turma e outras estatísticas relevantes   | BAIXA |
 |RF-006| Permitir a busca de alunos por turma   | BAIXA |
 |RF-007| Permitir o cadastro da turma  | BAIXA |
@@ -100,6 +80,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RNF-001| Garantir que o aplicativo seja acessível em diferentes dispositivos, como smartphones, tablets e computadores.   | MÉDIA |
+|RNF-002| Tempo de resposta aceitável, até 5 segundos, para as ações do usuário, como carregamento de páginas, processamento de dados e requisições na API. | MÉDIA |
 
 
 ## Restrições
@@ -111,7 +92,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre na data 10/12/2023 |
 |02| O banco de dados deve ser hospedado na nuvem para acesso da aplicação |
 |03| O desenvolvimento da aplicação Web/Mobile deve ser desenvolvida pelo Time atual |
-|04| Tempo de resposta aceitável, até 5 segundos, para as ações do usuário, como carregamento de páginas, processamento de dados e requisições na API  |
 
 
 
@@ -138,17 +118,13 @@ Na imagem abaixo é apresentado o diagrama de casos de uso do projeto.
 
 # Gerenciamento de Projeto
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições e Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
-
 ### Gerenciamento de Tempo
-O gráfico de Gantt é uma ferramenta visual para gerenciar o cronograma de atividades de um projeto. Ele lista as atividades necessárias, as divide em etapas e estima o tempo necessário para executá-las. A seguir, há uma imagem da utilização do gráfico de Gantt para este projeto.<br>
 
 [Kanban da equipe](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/560)
 
 
 ![Gerenciamento de Tempo](img/Especificacão/Diagrama%20de%20grantt.png)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
 ### Gerenciamento de Equipe
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
