@@ -66,10 +66,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve ter uma tela de login | BAIXA |
-|RF-002| Permitir aos professores registrar informações sobre as aulas lecionadas, como data, disciplina, conteúdo abordado e materiais utilizados, e também cadastro de informações dos alunos, como nome, matrícula, contato, turma e outras informações relevantes. Tempo esperado de resposta: até 5 segundos após a requisição | ALTA |
+|RF-001| A aplicação deve ter uma tela de login e cadastro de usuário | BAIXA |
+|RF-002| Permitir aos professores registrar informações sobre as aulas lecionadas, como data, disciplina, conteúdo abordado e materiais utilizados, e também cadastro de informações dos alunos, como nome, matrícula, contato, turma e outras informações relevantes | ALTA |
 |RF-003| Permitir que os professores registrem a presença ou falta de alunos em cada aula   | MÉDIA |
-|RF-004| Gerar relatórios de frequência para pais, responsáveis e gestores   | BAIXA |
+|RF-004| Gerar relatórios de frequência e de notas para pais, responsáveis e gestores   | BAIXA |
 |RF-005| Fornecer visualizações gráficas de médias de alunos, desempenho geral da turma e outras estatísticas relevantes   | BAIXA |
 |RF-006| Permitir a busca de alunos por turma   | BAIXA |
 |RF-007| Permitir o cadastro da turma  | BAIXA |
@@ -80,6 +80,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RNF-001| Garantir que o aplicativo seja acessível em diferentes dispositivos, como smartphones, tablets e computadores.   | MÉDIA |
+|RNF-002| Tempo de resposta aceitável, até 5 segundos, para as ações do usuário, como carregamento de páginas, processamento de dados e requisições na API. | MÉDIA |
 
 
 ## Restrições
@@ -91,7 +92,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre na data 10/12/2023 |
 |02| O banco de dados deve ser hospedado na nuvem para acesso da aplicação |
 |03| O desenvolvimento da aplicação Web/Mobile deve ser desenvolvida pelo Time atual |
-|04| Tempo de resposta aceitável, até 5 segundos, para as ações do usuário, como carregamento de páginas, processamento de dados e requisições na API  |
 
 
 
