@@ -60,7 +60,7 @@ Para organização e distribuição das tarefas do projeto, a equipe utiliza o T
 
 -	<b>Concluído</b>: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário.
 
-O quadro kanban do grupo no Trello está disponível através da URL: https://trello.com/b/8lJOQrrJ/projeto-eixo-4 e é apresentado na imagem abaixo.
+O quadro kanban do grupo no Trello está disponível através da URL: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/560/views/2 e é apresentado na imagem abaixo.
 
 ![Workflow](img/Metodologia/Trello.png)
 
