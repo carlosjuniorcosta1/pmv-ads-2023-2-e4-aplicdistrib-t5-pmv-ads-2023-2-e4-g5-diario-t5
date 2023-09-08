@@ -62,7 +62,7 @@ Para organização e distribuição das tarefas do projeto, a equipe utiliza o T
 
 O quadro kanban do grupo no Trello está disponível através da URL: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/560/views/2 e é apresentado na imagem abaixo.
 
-![Workflow](img/Metodologia/Trello.png)
+![Workflow](img/Metodologia/Novo%20kanban.png)
 
 ---
 As tarefas são etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
