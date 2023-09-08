@@ -1,46 +1,30 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O objetivo deste trabalho é planejar e criar uma aplicação web e mobile de diário escolar eletrônico. Essa aplicação visa a atender à demanda de profissionais de educação, principalmente docentes, no que diz respeito ao monitoramento claro e ágil do processo de avaliação, frequência e currículo de discentes do Ensino Fundamental e Médio. 
+Em primeiro lugar, o processo de avaliação e frequência se refere às notas obtidas dos alunos durante o bimestre ou ano letivo, além de suas faltas. Nossa aplicação deve facilitar o trabalho do professor nesse sentido e permitir que o trabalho de lançamento de atividades, acompanhamento da nota dos estudantes em determinados períodos e sua presença seja registrada de forma rápida e efetiva. 
+Em segundo lugar, os professores têm nos relatado dificuldades no que concerne ao registro das habilidades e conteúdos temáticos a serem trabalhados segundo à Base Nacional Curricular Comum (BRASIL, 2017). Trata-se de um documento norteador para a estrutura curricular que é adotada por todas as escolas do país, quer sejam públicas, quer particulares. Como a BNCC é um documento bastante extenso, de aproximadamente 600 páginas, os docentes têm a penosa tarefa de memorizar nomes para centenas de habilidades diferentes, pois o registro nos diários escolares é obrigatório desde a promulgação desse documento. Por essa razão, seria bastante bem-vindo um diário que permitisse o acesso automático à BNCC, de forma que as habilidades possam ser facilmente filtradas por bancos de dados e selecionadas em vez de buscadas exaustivamente em livros físicos. 
+Portanto, nossa proposta de aplicação visa a facilitar a vida dos docentes da Educação Básica no registro diário de suas atividades por meio de um novo diário eletrônico com acesso a documentos norteadores da educação do Ministério da Educação, como a BNCC. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Esse projeto propõe soluções para dois problemas principais. O primeiro diz respeito ao acompanhamento e lançamento de notas e frequências de alunos, que podem ser facilmente inseridos no banco de dados, tanto pela web quanto pelo celular, pelo professor. O segundo problema se relaciona à extrema dificuldade de memorizar as habilidades e seus descritores de um livro tão extenso, a BNCC.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O objetivo geral deste trabalho é criar uma aplicação que acompanhe o desempenho e frequência dos estudantes. 
+Já os objetivos específicos são:
+a)	Permitir o acompanhamento do dia a dia do aluno no sistema, tanto por frequência quanto por avaliação.
+b)	Permitir a visualização da BNCC no diário eletrônico.
+c)	Permitir a edição do banco de dados de alunos em qualquer momento do ano letivo pelo professor.
+d)	Permitir que os alunos visualizem algumas informações, como suas notas ao longo de um período, assim como a média, mediana e o desvio padrão da turma, além de gráficos comparativos de seu desempenho com o de outros. 
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Em primeiro lugar, esse projeto se justifica devido à grande demanda de profissionais da educação por um sistema ágil que possa poupar-lhes tempo na hora de acompanhar seus alunos e turmas. Ao ter um banco de dados em suas mãos, os professores podem se adequar à exigência do Governo do Estado de Minas, por exemplo, que exige esse registro de habilidades e descrições sem fornecer tecnologia para isso. 
+Em segundo lugar, a possibilidade de o aluno visualizar seu desempenho pode estimulá-lo a estudar mais e a identificar qual habilidade precisa melhorar, visto que as atividades a serem registradas para a avaliação também requisitam esse rótulo. Isso significa que é possível saber em qual atividade o aluno se saiu melhor, e qual teve seu pior desempenho, de modo que facilite a identificação de problemas em seu percurso de estudo. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo desta aplicação são profissionais de educação, quer funcionários públicos de escolas, quer profissionais liberais. Trata-se de pessoas que diariamente tem que avaliar e registrar o desempenho de seus discentes e precisam, de forma bastante urgente, de tecnologias para auxiliá-los nesse processo. Isso não significa automação de suas tarefas, mas facilitação e menor perda de tempo em pesquisas demoradas em documentos exaustivamente grandes para fazer um simples registro. Além disso, os docentes podem acompanhar estatisticamente o desempenho de seus estudantes por habilidades, ademais de compará-los entre si do ponto de vista avaliativo e melhorar seu processo de ensino-aprendizagem. 
