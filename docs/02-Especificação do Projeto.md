@@ -52,7 +52,7 @@ O processo apresentado consiste no fluxo da aplicação e a estrutura usada
 
 Indicadores de desempenho para uma aplicação escalável
 
-|Indicador|Objetivo|Descrição|Cálculo|Fonte de Dados|Perpesctiva
+|Indicador|Objetivo|Descrição|Cálculo|Fonte de Dados|Perspectiva
 |------|-----------------------------------------|----|----|----|----
 |Tempo de carregamento da página|Medir o tempo de resposta|O tempo que a página leva para carregar é um dos indicadores mais importantes para evitar que os usuários abandonem o site||Banco de Dados|Cliente
 |Nível de escalabilidade|Medir a escabilidade da ferramente|Avaliar a capacidade da aplicação de lidar com aumentos de tráfego||Aplicação|Cliente
