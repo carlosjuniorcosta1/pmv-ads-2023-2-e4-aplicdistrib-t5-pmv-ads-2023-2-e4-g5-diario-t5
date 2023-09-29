@@ -45,7 +45,9 @@ Para sua construção das APIs, tem sido utilizada a linguagem Python, juntament
 As linguagens de front end estão sendo analisadas. A princípio, vamos utilizar HTML, CSS, Bootstrap e JavaScript para a versão Web e Flutter ou React Native para a versão mobile. 
 
 ## Estilo Arquitetural do Projeto
-No projeto utilizaremos um estilo monolitico.
+No projeto utilizaremos o DDD no C# para o consumo e tratamento dos dados que virão da API desenvolvida em python.
+
+No backend da api (Python) utilizaremos a arquitetura de microserviços.
 
 ![EstiloArq](img/ArquiteturaSolução/DDD.png)
 
@@ -59,7 +61,26 @@ A escolha de adotar o padrão arquitetural Domain-Driven Design (DDD) em nosso p
 
 3 - **Arquitetura Flexível e Adaptável:** DDD promove uma arquitetura modular que facilita a expansão e evolução do sistema à medida que nossos requisitos e o domínio de negócios mudam. Isso garante que o software seja duradouro e resiliente.
 
-Portanto, a adoção do padrão arquitetural DDD em nosso projeto visa criar uma solução robusta, orientada ao negócio e adaptável às mudanças futuras.
+Portanto, a adoção do padrão arquitetural DDD para o consumo da api e tratamento de dados em nosso projeto visa criar uma solução robusta, orientada ao negócio e adaptável às mudanças futuras.
+
+Já na parte da api utilizaremos uma arquitetura de microserviços em python
+
+![EstiloArq](img/ArquiteturaSolução/Microservices.png)
+
+A escolha de adotar uma arquitetura de microserviços em nosso projeto é fundamentada em 3 razões.
+
+1 - **Escalabilidade Sob Demanda:**
+
+Imagine que o diário eletrônico cresce ao longo do tempo, com mais professores e alunos usando o sistema. Com uma arquitetura de microserviços, cada funcionalidade, como registro de aulas, notas e presença, pode ser tratada por um microserviço separado. Isso significa que, se uma parte do sistema se tornar mais exigente em termos de recursos, você pode dimensioná-la independentemente, garantindo que o sistema continue funcionando de maneira eficiente e rápida.
+
+2 - **Desenvolvimento e Manutenção Eficiente:**
+
+Com microserviços, diferentes equipes podem se concentrar em áreas específicas do diário eletrônico. Por exemplo, uma equipe pode cuidar do registro de presença, enquanto outra trabalha nas notas dos alunos. Isso torna o desenvolvimento mais ágil, pois as equipes podem trabalhar simultaneamente e lançar atualizações mais rapidamente. Além disso, quando há necessidade de correções ou melhorias, é mais fácil fazer isso em um microserviço específico, sem afetar outras partes do sistema.
+
+3 - **Resiliência e Tolerância a Falhas:**
+
+Em um ambiente educacional, a confiabilidade do sistema é fundamental. Com microserviços, se um componente, como o registro de notas, enfrentar problemas técnicos, as outras funcionalidades, como o registro de aulas, ainda podem funcionar. Isso evita interrupções completas do sistema. Além disso, você pode implementar estratégias de recuperação específicas para cada microserviço, garantindo que problemas isolados possam ser resolvidos de forma rápida e eficaz.
+
 ## Hospedagem
 
 A hospedagem dos bancos de dados e aplicação pode ser feita pelo https://smarterapp.com.br/Login.aspx ou https://planetscale.com/. Estamos estudando as opções disponíveis e fazendo testes. 
