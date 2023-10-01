@@ -33,11 +33,8 @@ Abaixo é possivel ver o modelo ER da aplicação
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
-
 ![Esquema Relacional](img/Esquema_Relacional.jpeg)
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
 
 ## Modelo Físico
 
