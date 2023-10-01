@@ -4,7 +4,9 @@
 
 ![ArqSoluc](img/ArquiteturaSolução/ProjetoAPi.png)
 
-A base de nossa aplicação, tanto para web quanto para mobile, consiste na manipulação de dois bancos de dados SQL, acessados por meio de APIs diferentes, mas complementares. Vamos denominá-las de API BNCC e API DIARIO e explicitar suas funções a seguir. 
+![DiagramaBackEnd](img/diagramabackend.jpeg)
+
+A base de nossa aplicação, tanto para web quanto para mobile, consiste na manipulação de um banco de dados SQL, acessado por meio de APIs diferentes, mas complementares. Vamos denominá-las de API BNCC e API DIARIO e explicitar suas funções a seguir. 
 
 A API BNCC acessa as habilidades e outras informações do banco de dados da BNCC e que devem ser registradas no diário eletrônico. Trata-se de uma api com diversos métodos GET que filtram os vários componentes curriculares, habilidades e conteúdos a serem trabalhados, obrigatoriamente, em sala de aula.
 
