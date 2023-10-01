@@ -39,7 +39,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 ## Modelo Físico
 
-O modelo físico do banco de dados se encontra na pasta src/bd/bd_diario_script.sql e contém os scripts utilizados na criação do banco de dados e das tabelas.
+O modelo físico do banco de dados se encontra na pasta src/ApiPython/bd/bd_diario_script.sql e contém os scripts utilizados na criação do banco de dados e das tabelas.
 
 ## Tecnologias Utilizadas
 
