@@ -17,6 +17,8 @@ Dessa forma, temos:
 1) Usuário acessa APIs hospedadas na nuvem, cada qual com sua função
 2) Registros e edições do usuário são salvos pela API e aplicados no banco de dados
 
+
+
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
@@ -45,6 +47,25 @@ O modelo físico do banco de dados se encontra na pasta src/ApiPython/bd/bd_diar
 Para sua construção das APIs, tem sido utilizada a linguagem Python, juntamente com a biblioteca Flask e Pandas, além de PyODBC, que integra o SQL no Python. A justificativa para utilizar Python se deve a seu poder de manipulação de dados e demanda extremamente grande de expressões regulares para pesquisa e extração de dados da BNCC, que não tem um banco de dados tal como disponibilizado neste trabalho. No extensivo trabalho para construção do banco de dados da BNCC, por exemplo, foi bastante utilizada a biblioteca re, de expressões regulares do Python, juntamente com filtragens em conjunto com o Pandas, sem os quais esse trabalho não seria possível. 
 As linguagens de front end estão sendo analisadas. A princípio, vamos utilizar HTML, CSS, Bootstrap e JavaScript para a versão Web e Flutter ou React Native para a versão mobile. 
 
+##Documentação da api
+O projeto usa como base 2 apis até o momento. A primeira permite fazer crud de estudantes no banco de dados, enquanto a segunda permite o acesso às orientações curriculares na BNCC. Ambas consultam e executam diversas operações em um mesmo banco de dados criado em SQL (SQL Server), a ser subido para nuvem em momento oportuno. Ambas as apis estão documentadas no Swagger (api/docs/#swagger) e foram construídas usando o framework Flask em linguagem Python. A api de alunos tem a seguinte estrutura, com métodos GET, PUT, DELETE e POST:
+![Alt text](img/api_doc_0.png)
+
+Abaixo, um exemplo de busca baseado no id do estudante, que é feito via path:
+![Alt text](img/api_doc_1.png)
+![Alt text](img/api_doc_2.png)
+
+A seguir, um exemplo de como estão documentados os métodos das querystrings:
+![Alt text](img/api_doc_3.png)
+
+A api da BNCC está constituída por diversos métodos GETs diferentes, visto que é uma api de consulta. Isso se deve ao fato de a BNCC ser um documento oficial orientador do currículo. Dessa forma, é visível a necessidade apenas de visualizações, já que não será possível apagar ou editar um documento oficial. É possível visualizar sua estrutura na imagem abaixo:
+![Alt text](img/api_doc_4.png)
+Também é possível visualizar que todos os métodos estão documentados e é possível visualizar também todos os parâmetros, tanto passados por path quanto por querystring, para fazer diversas filtragens. 
+
+Na imagem a seguir, passados os parâmetros especificados, que são matéria e ano, todo o conteúdo curricular referente a isso será visualizado.
+ ![Alt text](img/api_doc_5.png)
+ ![Alt text](img/api_doc_6.png)
+ ![Alt text](img/api_doc_7.png)
 ## Estilo Arquitetural do Projeto
 No projeto utilizaremos o DDD no C# para o consumo e tratamento dos dados que virão da API desenvolvida em python.
 
@@ -100,3 +121,6 @@ Com base nessas características e nas respectivas sub-características, identif
 > - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
 > - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
 > - [Qualidade de Software - Engenharia de Software 29](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209/)
+
+
+[def]: image.png
