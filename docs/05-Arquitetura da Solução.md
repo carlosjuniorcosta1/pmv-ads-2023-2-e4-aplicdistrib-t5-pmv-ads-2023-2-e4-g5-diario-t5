@@ -1,7 +1,5 @@
 # Arquitetura da Solução
 
-
-
 ![ArqSoluc](img/ArquiteturaSolução/ProjetoAPi.png)
 
 ![DiagramaBackEnd](img/diagramabackend.jpeg)
