@@ -66,6 +66,8 @@ Na imagem a seguir, passados os parâmetros especificados, que são matéria e a
  ![Alt text](img/api_doc_5.png)
  ![Alt text](img/api_doc_6.png)
  ![Alt text](img/api_doc_7.png)
+
+
 ## Estilo Arquitetural do Projeto
 No projeto utilizaremos o DDD no C# para o consumo e tratamento dos dados que virão da API desenvolvida em python.
 
@@ -102,6 +104,19 @@ Com microserviços, diferentes equipes podem se concentrar em áreas específica
 3 - **Resiliência e Tolerância a Falhas:**
 
 Em um ambiente educacional, a confiabilidade do sistema é fundamental. Com microserviços, se um componente, como o registro de notas, enfrentar problemas técnicos, as outras funcionalidades, como o registro de aulas, ainda podem funcionar. Isso evita interrupções completas do sistema. Além disso, você pode implementar estratégias de recuperação específicas para cada microserviço, garantindo que problemas isolados possam ser resolvidos de forma rápida e eficaz.
+
+#Banco de dados NoSql
+
+Nessa etapa, foi construído um banco de dados usando o pymongo e o MongoDB. Dessa forma, primeiramente transformamos o banco de dados usado em SQL, que está armazenado no SQL Server, transformamos em um dataframe Pandas e, depois, em um Json que alimentou o MongoDbCompass. Assim, foi criado um banco de dados com os alunos já usado em SQL. Na imagem abaixo, é possível ver esse banco de dados, chamado "al_db", armazenado no MongoDB (localhost).
+ ![Alt text](img/api_doc_8.png)
+ De forma bastante simples, é possível conectar a esse banco de dados:
+ ![Alt text](img/api_doc_9.png)
+ Essa conexão resultou bastante eficiente e rápida. Como não se trata de uma linguagem estrutura, mas baseada em chave-valor, houve um ganho importante na performance. Além disso, há bastante liberdade na criação de novos dados, pois é possível adicionar novas chaves e valores nos documentos, enquanto que possíveis colunas e relações em uma linguagem estruturada poderiam gerar muitas restrições quanto a isso.
+ A seguir mostramos três métodos. O primeiro lista todos os estudantes, o segundo lista um estudante pelo nome e o outro insere um novo estudante no banco de dados. 
+ ![Alt text](img/api_doc_10.png)
+ ![Alt text](img/api_doc_11.png)
+ ![Alt text](img/api_doc_12.png)
+Futuramente, desenvolveremos outras funcionadades usando o MongoDB em nossa aplicação, pois seu uso foi bastante produtivo. 
 
 ## Hospedagem
 
