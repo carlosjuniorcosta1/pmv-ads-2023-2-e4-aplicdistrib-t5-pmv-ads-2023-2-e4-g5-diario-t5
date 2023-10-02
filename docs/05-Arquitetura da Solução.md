@@ -68,6 +68,10 @@ Na imagem a seguir, passados os parâmetros especificados, que são matéria e a
  ![Alt text](img/api_doc_7.png)
 
 
+### Video explicação da api
+
+https://www.loom.com/share/6e86237122a5444d9d727c25f22ba55b?start_download=true
+
 ## Estilo Arquitetural do Projeto
 No projeto utilizaremos o DDD no C# para o consumo e tratamento dos dados que virão da API desenvolvida em python.
 
