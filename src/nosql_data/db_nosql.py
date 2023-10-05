@@ -5,12 +5,7 @@ client = pymongo.MongoClient("mongodb://localhost", 27017)
 #acessa o db al_db, que foi feito no mongodbCompass, importando um json feito no python
 db = client["al_db"] 
 
-print(f"esse é o banco de dados{db}")
-
-
 collection = db["dados"]
-
-print(f"essa é a coleção usada {collection}")
 
 def list_all_students():
         all_students = []
@@ -18,7 +13,7 @@ def list_all_students():
                 all_students.append(x)
         
         return all_students, print(all_students)
-
+#list_all_students()
 
 def list_student_by_name(name: str):
         name_st = name
@@ -34,11 +29,14 @@ def list_student_by_name(name: str):
 
 def insert_new_student(new_st):
         add_new = collection.insert_one(new_st)
+        new_ = collection.find(new_st)
+        for x in new_:
+                print(x)
         return print(add_new.inserted_id)
 
-new_st = {"nome": "novo aluno", 'turma': 'sexto_ef', 'sobrenome': 'sobrenome do aluno'}
+new_st = {"nome": "aluno_inserido_para_exemplo", 'turma': 'nono_ef', 'sobrenome': 'sobrenome do aluno'}
         
-#insert_new_student(new_st)
+insert_new_student(new_st)
     
         
         
