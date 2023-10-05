@@ -4,9 +4,9 @@ import pandas as pd
 from flask_pydantic_spec import FlaskPydanticSpec
 
 
-app = Flask(__name__)
+app = Flask(__name__ )
 spec = FlaskPydanticSpec('flask', title = "Endpoints da tabela de avaliação")
-spec.register(app)
+spec.register(app)      
 
 data_for_connection = (
     "Driver={SQL Server Native Client RDA 11.0};"
@@ -26,7 +26,6 @@ print(show_table_names)
 #cursor.commit()
 
 @app.route('/diario/notas/<turma>', methods = ["GET"])
-@app.route('/diario/notas/<turma>/<materia>', methods = ["GET"])
 def get_grades(turma, materia = ''):
     """Gera boletins com a nota total dos alunos de um turma, de todas as matérias ou por matéria"""    
     db_classroom = cursor.execute(f"SELECT turma from tabela_avaliacao")
@@ -63,13 +62,6 @@ def get_grades(turma, materia = ''):
         
         return jsonify(data = db_l, message = "Notas solicitadas")
 
-        
-        
-        
-        
-        
-        
-        
-        
+           
 app.run(debug=True)
     
